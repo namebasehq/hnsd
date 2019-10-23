@@ -24,6 +24,7 @@ ENTRYPOINT ["./hnsd", "--ns-host=0.0.0.0:5359", "--rs-host=0.0.0.0:5360"]
 # Some arbitrary working seeds, since the default testnet ones are down.
 CMD [\
 "--seeds=\
+anmefnjv67ejca264qahxdlhyqvtvgvxxtyepqh77zizhqkcbam32@52.25.49.8,\
 ak2hy7feae2o5pfzsdzw3cxkxsu3lxypykcl6iphnup4adf2ply6a@138.68.61.31:13038,\
 ajaqq7jwqrwixmvl64tzi3qfi7ynj3hmmtzmkyubtrljh4mwmh7ie@165.22.151.242:13038,\
 "\
