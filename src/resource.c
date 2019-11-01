@@ -2685,6 +2685,7 @@ hsk_resource_to_nx(void) {
 
 hsk_dns_msg_t *
 hsk_resource_to_servfail(void) {
+  return hsk_resource_to_nx();
   hsk_dns_msg_t *msg = hsk_dns_msg_alloc();
 
   if (!msg)
